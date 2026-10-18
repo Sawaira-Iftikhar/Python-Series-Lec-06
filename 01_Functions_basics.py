@@ -64,3 +64,6 @@ print("power(2, 10) =", power(2, 10))
 
 def min_max(numbers):
     return min(numbers), max(numbers)
+
+# Call the function
+result = min_max([45, 12, 89, 33, 67])
