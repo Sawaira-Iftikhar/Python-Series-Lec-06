@@ -25,3 +25,7 @@ def greet():
 greet()
 greet()
 greet()
+
+# Store and print the return value
+result = greet()
+print("Return value:", result)
