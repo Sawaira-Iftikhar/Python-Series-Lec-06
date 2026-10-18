@@ -90,12 +90,15 @@ print("Maximum:", highest)
 
 
 
-# 1) Void function: prints the formatted box directly
+# 1. Void function: prints the formatted box directly
 def print_box(message):
     print("==========")
     print(f"| {message} |")
     print("==========")
 
-# 1. Return function: returns the formatted box as a string
+# 2. Return function: returns the formatted box as a string
 def format_box(message):
     return f"==========\n| {message} |\n=========="
+
+# 3. Call the void function
+print_box("Hello")
