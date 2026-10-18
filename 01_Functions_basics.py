@@ -61,3 +61,6 @@ print("power(2, 10) =", power(2, 10))
 #     a) Call it with [45, 12, 89, 33, 67]
 #     b) Unpack the returned tuple into two variables: lowest, highest
 #     c) Print both values
+
+def min_max(numbers):
+    return min(numbers), max(numbers)
