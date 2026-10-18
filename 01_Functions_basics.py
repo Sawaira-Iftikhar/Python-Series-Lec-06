@@ -37,3 +37,6 @@ print("Return value:", result)
 #     b) Define a function multiply(a, b) that returns the product
 #     c) Define a function power(base, exp) that returns base ** exp
 #     d) Call each function and print the results
+
+def add(a, b):
+    return a + b
