@@ -53,3 +53,11 @@ print("multiply(4, 7) =", multiply(4, 7))
 print("power(2, 10) =", power(2, 10))
 
 #-----------------------------------------------------------------------------------------
+
+# Q3. FUNCTIONS WITH MULTIPLE RETURNS:
+#     Define a function min_max(numbers) that takes a list of numbers
+#     and returns BOTH the minimum and maximum values as a tuple.
+#
+#     a) Call it with [45, 12, 89, 33, 67]
+#     b) Unpack the returned tuple into two variables: lowest, highest
+#     c) Print both values
