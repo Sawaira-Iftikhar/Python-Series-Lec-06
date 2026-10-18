@@ -20,3 +20,8 @@
 
 def greet():
     print("Hello, World!")
+
+# Call the function 3 times
+greet()
+greet()
+greet()
