@@ -31,3 +31,9 @@ result = greet()
 print("Return value:", result)
 
 #-----------------------------------------------------------------------------------------
+
+# Q2. FUNCTIONS WITH PARAMETERS:
+#     a) Define a function add(a, b) that returns the sum of two numbers
+#     b) Define a function multiply(a, b) that returns the product
+#     c) Define a function power(base, exp) that returns base ** exp
+#     d) Call each function and print the results
