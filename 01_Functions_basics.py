@@ -118,3 +118,10 @@ print(result)
 # ==========================================
 #  PART B: TYPES OF FUNCTIONS 
 # ==========================================
+
+# Q5. BUILT-in vs USER-DEFINED FUNCTIONS:
+#     a) List 5 built-in functions you've used so far and call each one
+#     b) Write a user-defined function is_even(n) that returns True/False
+#     c) Write a user-defined function celsius_to_fahrenheit(c)
+#        Formula: F = (C × 9/5) + 32
+#     d) Test both functions
