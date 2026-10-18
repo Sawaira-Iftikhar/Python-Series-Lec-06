@@ -106,3 +106,10 @@ print_box("Hello")
 # 4. Call the return function and print its result
 result = format_box("Hello")
 print(result)
+
+"""
+ 5.  Difference:
+ print_box() displays the output directly and returns None.
+ format_box() returns a string that can be stored in a variable
+ and printed or used later.
+"""
