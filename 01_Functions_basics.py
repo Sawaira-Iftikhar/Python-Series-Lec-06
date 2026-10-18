@@ -74,3 +74,5 @@ lowest, highest = result
 # Print both values
 print("Minimum:", lowest)
 print("Maximum:", highest)
+
+#-----------------------------------------------------------------------------------------
