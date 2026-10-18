@@ -17,3 +17,6 @@
 #     b) Call the function 3 times
 #     c) What does greet() return if there is no return statement?
 #        Store the result in a variable and print it.
+
+def greet():
+    print("Hello, World!")
