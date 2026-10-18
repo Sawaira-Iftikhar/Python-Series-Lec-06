@@ -67,3 +67,6 @@ def min_max(numbers):
 
 # Call the function
 result = min_max([45, 12, 89, 33, 67])
+
+# Unpack the returned tuple
+lowest, highest = result
