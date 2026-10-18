@@ -88,3 +88,10 @@ print("Maximum:", highest)
 #     d) Call format_box("Hello") — store result and print it
 #     e) Explain the difference in a comment
 
+
+
+# 1) Void function: prints the formatted box directly
+def print_box(message):
+    print("==========")
+    print(f"| {message} |")
+    print("==========")
