@@ -125,3 +125,11 @@ print(result)
 #     c) Write a user-defined function celsius_to_fahrenheit(c)
 #        Formula: F = (C × 9/5) + 32
 #     d) Test both functions
+
+
+# 1. Five built-in functions
+print('len("Python") =', len("Python"))
+print("max(10, 20, 30) =", max(10, 20, 30))
+print("min(10, 20, 30) =", min(10, 20, 30))
+print("sum([1, 2, 3, 4, 5]) =", sum([1, 2, 3, 4, 5]))
+print("type(25) =", type(25))
