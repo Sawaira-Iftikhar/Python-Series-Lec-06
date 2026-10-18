@@ -70,3 +70,7 @@ result = min_max([45, 12, 89, 33, 67])
 
 # Unpack the returned tuple
 lowest, highest = result
+
+# Print both values
+print("Minimum:", lowest)
+print("Maximum:", highest)
