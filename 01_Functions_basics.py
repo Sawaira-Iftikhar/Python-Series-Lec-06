@@ -102,3 +102,7 @@ def format_box(message):
 
 # 3. Call the void function
 print_box("Hello")
+
+# 4. Call the return function and print its result
+result = format_box("Hello")
+print(result)
