@@ -76,3 +76,15 @@ print("Minimum:", lowest)
 print("Maximum:", highest)
 
 #-----------------------------------------------------------------------------------------
+
+# Q4. VOID vs RETURN FUNCTIONS:
+#     a) Define a VOID function print_box(message) that prints:
+#        ==========
+#        | message |
+#        ==========
+#     b) Define a RETURN function format_box(message) that RETURNS
+#        the same formatted string instead of printing it.
+#     c) Call print_box("Hello") — it prints directly
+#     d) Call format_box("Hello") — store result and print it
+#     e) Explain the difference in a comment
+
