@@ -137,3 +137,7 @@ print("type(25) =", type(25))
 # 2. User-defined function to check even numbers
 def is_even(n):
     return n % 2 == 0
+
+# 3. User-defined function to convert Celsius to Fahrenheit
+def celsius_to_fahrenheit(c):
+    return (c * 9 / 5) + 32
