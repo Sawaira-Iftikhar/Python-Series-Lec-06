@@ -95,3 +95,7 @@ def print_box(message):
     print("==========")
     print(f"| {message} |")
     print("==========")
+
+# 1. Return function: returns the formatted box as a string
+def format_box(message):
+    return f"==========\n| {message} |\n=========="
