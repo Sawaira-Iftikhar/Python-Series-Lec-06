@@ -46,3 +46,8 @@ def multiply(a, b):
 
 def power(base, exp):
     return base ** exp
+
+# Call each function and print the results
+print("add(5, 3) =", add(5, 3))
+print("multiply(4, 7) =", multiply(4, 7))
+print("power(2, 10) =", power(2, 10))
