@@ -43,3 +43,6 @@ def add(a, b):
 
 def multiply(a, b):
     return a * b
+
+def power(base, exp):
+    return base ** exp
