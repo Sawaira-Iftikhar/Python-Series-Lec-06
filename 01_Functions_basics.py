@@ -133,3 +133,7 @@ print("max(10, 20, 30) =", max(10, 20, 30))
 print("min(10, 20, 30) =", min(10, 20, 30))
 print("sum([1, 2, 3, 4, 5]) =", sum([1, 2, 3, 4, 5]))
 print("type(25) =", type(25))
+
+# 2. User-defined function to check even numbers
+def is_even(n):
+    return n % 2 == 0
