@@ -141,3 +141,9 @@ def is_even(n):
 # 3. User-defined function to convert Celsius to Fahrenheit
 def celsius_to_fahrenheit(c):
     return (c * 9 / 5) + 32
+
+# 4. Test both functions
+print("is_even(4) =", is_even(4))
+print("is_even(7) =", is_even(7))
+
+print("100°C =", celsius_to_fahrenheit(100), "°F")
