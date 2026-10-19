@@ -213,3 +213,5 @@ def pythagoras(a, b):
 print("square(5) =", square(5))
 print("sum_of_squares(3, 4) =", sum_of_squares(3, 4))
 print("pythagoras(3, 4) =", pythagoras(3, 4))
+
+#-----------------------------------------------------------------------------------------
