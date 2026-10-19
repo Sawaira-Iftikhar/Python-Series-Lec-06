@@ -243,3 +243,6 @@ def calculate_bmi(weight_kg, height_m):
 # Calculate and print BMI
 bmi = calculate_bmi(70, 1.70)
 print(f"BMI: {bmi:.2f}")
+
+# Print the docstring
+print("Docstring:", calculate_bmi.__doc__)
