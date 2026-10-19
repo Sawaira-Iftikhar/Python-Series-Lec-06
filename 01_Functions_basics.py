@@ -171,3 +171,7 @@ def cube(x):
 
 # 2. def to lambda
 absolute = lambda n: n if n >= 0 else -n
+
+# Testing both functions
+print("Cube of 3:", cube(3))
+print("Absolute of -7:", absolute(-7))
