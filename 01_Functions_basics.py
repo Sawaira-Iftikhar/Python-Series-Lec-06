@@ -183,3 +183,7 @@ Use def for longer functions with multiple statements
 or when the function needs more explanation and readability.
 """
 #-----------------------------------------------------------------------------------------
+
+# ==========================================
+#  PART C: FUNCTION BEHAVIOR & SCOPE 
+# ==========================================
