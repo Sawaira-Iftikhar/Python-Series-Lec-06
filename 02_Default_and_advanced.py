@@ -10,3 +10,13 @@
 # ==========================================
 #  PART A: DEFAULT PARAMETERS 
 # ==========================================
+
+# Q1. BASIC DEFAULT PARAMETERS:
+#     Define a function greet(name, greeting="Hello", punctuation="!")
+#     that returns a formatted greeting string.
+#
+#     Call it in these ways:
+#     "Hello, Ali!"
+#     "Hi, Sara!"
+#     "Hey, Hamza!!!"
+#      "Hello, Zainab?"
