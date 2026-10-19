@@ -175,3 +175,10 @@ absolute = lambda n: n if n >= 0 else -n
 # Testing both functions
 print("Cube of 3:", cube(3))
 print("Absolute of -7:", absolute(-7))
+
+# 3. When to use lambda vs def?
+"""
+Use lambda for short, simple, one-line functions.
+Use def for longer functions with multiple statements
+or when the function needs more explanation and readability.
+"""
