@@ -208,3 +208,8 @@ def sum_of_squares(a, b):
 # 3. Function to calculate Pythagoras
 def pythagoras(a, b):
     return sum_of_squares(a, b) ** 0.5
+
+# 4. Testing the functions
+print("square(5) =", square(5))
+print("sum_of_squares(3, 4) =", sum_of_squares(3, 4))
+print("pythagoras(3, 4) =", pythagoras(3, 4))
