@@ -225,3 +225,15 @@ print("pythagoras(3, 4) =", pythagoras(3, 4))
 #      b) Print the docstring using: print(calculate_bmi.__doc__)
 #      c) Use help(calculate_bmi) to see the full documentation
 
+
+def calculate_bmi(weight_kg, height_m):
+      """
+    Calculates Body Mass Index (BMI).
+
+    Parameters:
+        weight_kg (float): Weight of the person in kilograms.
+        height_m (float): Height of the person in meters.
+
+    Returns:
+        float: The calculated BMI value.
+    """
