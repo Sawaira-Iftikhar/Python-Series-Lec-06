@@ -32,3 +32,14 @@ print(greet("Hamza", "Hey", "!!!"))
 print(greet("Zainab", punctuation="?"))
 
 #-----------------------------------------------------------------------------------------
+
+# Q2. DEFAULT PARAMETERS WITH CALCULATIONS:
+#     Define a function calculate_salary(base, bonus=5000, tax_rate=0.1)
+#     that returns the net salary after adding bonus and deducting tax.
+#     Formula: net = (base + bonus) * (1 - tax_rate)
+#
+#     Call it:
+#     a) calculate_salary(50000)                  → default bonus & tax
+#     b) calculate_salary(50000, 10000)           → custom bonus
+#     c) calculate_salary(50000, 10000, 0.15)     → custom bonus & tax
+#     d) calculate_salary(50000, tax_rate=0.2)    → skip bonus, custom tax
