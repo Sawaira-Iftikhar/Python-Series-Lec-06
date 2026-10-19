@@ -204,3 +204,7 @@ def square(n):
 # 2. Function to calculate sum of squares
 def sum_of_squares(a, b):
     return square(a) + square(b)
+
+# 3. Function to calculate Pythagoras
+def pythagoras(a, b):
+    return sum_of_squares(a, b) ** 0.5
