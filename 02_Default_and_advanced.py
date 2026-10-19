@@ -20,3 +20,7 @@
 #     "Hi, Sara!"
 #     "Hey, Hamza!!!"
 #      "Hello, Zainab?"
+
+
+def greet(name, greeting="Hello", punctuation="!"):
+    return f"{greeting}, {name}{punctuation}"
