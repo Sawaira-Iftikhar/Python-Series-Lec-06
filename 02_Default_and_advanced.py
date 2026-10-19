@@ -43,3 +43,8 @@ print(greet("Zainab", punctuation="?"))
 #     b) calculate_salary(50000, 10000)           → custom bonus
 #     c) calculate_salary(50000, 10000, 0.15)     → custom bonus & tax
 #     d) calculate_salary(50000, tax_rate=0.2)    → skip bonus, custom tax
+
+
+def calculate_salary(base, bonus=5000, tax_rate=0.1):
+    net = (base + bonus) * (1 - tax_rate)
+    return net
