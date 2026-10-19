@@ -238,3 +238,8 @@ def calculate_bmi(weight_kg, height_m):
         float: The calculated BMI value.
     """
     return weight_kg / (height_m ** 2)
+
+
+# Calculate and print BMI
+bmi = calculate_bmi(70, 1.70)
+print(f"BMI: {bmi:.2f}")
