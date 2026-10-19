@@ -56,3 +56,13 @@ print("Net Salary (15% tax):", calculate_salary(50000, 10000, 0.15))
 print("Net Salary (20% tax):", calculate_salary(50000, tax_rate=0.2))
 
 #-----------------------------------------------------------------------------------------
+
+# Q3. DEFAULT PARAMETERS WITH TYPES:
+#     Define a function create_profile(name, age, hobbies=None, is_active=True)
+#     that returns a dictionary representing a user profile.
+#     If hobbies is None, set it to an empty list.
+#
+#     Call it:
+#     a) create_profile("Ali", 22)
+#     b) create_profile("Sara", 25, ["Reading", "Coding"])
+#     c) create_profile("Hamza", 20, is_active=False)
