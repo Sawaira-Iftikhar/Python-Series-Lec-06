@@ -227,7 +227,7 @@ print("pythagoras(3, 4) =", pythagoras(3, 4))
 
 
 def calculate_bmi(weight_kg, height_m):
-      """
+    """
     Calculates Body Mass Index (BMI).
 
     Parameters:
@@ -237,3 +237,4 @@ def calculate_bmi(weight_kg, height_m):
     Returns:
         float: The calculated BMI value.
     """
+    return weight_kg / (height_m ** 2)
