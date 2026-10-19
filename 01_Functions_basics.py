@@ -200,3 +200,7 @@ or when the function needs more explanation and readability.
 # 1. Function to calculate square
 def square(n):
     return n * n
+
+# 2. Function to calculate sum of squares
+def sum_of_squares(a, b):
+    return square(a) + square(b)
