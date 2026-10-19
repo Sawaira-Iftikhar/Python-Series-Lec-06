@@ -149,3 +149,18 @@ print("is_even(7) =", is_even(7))
 print("100°C =", celsius_to_fahrenheit(100), "°F")
 
 #-----------------------------------------------------------------------------------------
+
+# Q6. LAMBDA vs def COMPARISON:
+#     Rewrite each lambda as a regular def function and vice versa:
+#
+#     a) Lambda: cube = lambda x: x ** 3
+#        → Rewrite as def
+#
+#     b) def:
+#        def absolute(n):
+#            return n if n >= 0 else -n
+#        → Rewrite as lambda
+#
+#     c) When should you use lambda vs def? Explain in a comment.
+
+# Write your code here:
