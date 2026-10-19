@@ -163,4 +163,8 @@ print("100°C =", celsius_to_fahrenheit(100), "°F")
 #
 #     c) When should you use lambda vs def? Explain in a comment.
 
-# Write your code here:
+
+
+# 1. Lambda to def
+def cube(x):
+    return x ** 3
