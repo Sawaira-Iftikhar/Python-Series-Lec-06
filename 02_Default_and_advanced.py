@@ -24,3 +24,9 @@
 
 def greet(name, greeting="Hello", punctuation="!"):
     return f"{greeting}, {name}{punctuation}"
+
+# Testing the function
+print(greet("Ali"))
+print(greet("Sara", "Hi"))
+print(greet("Hamza", "Hey", "!!!"))
+print(greet("Zainab", punctuation="?"))
