@@ -4,7 +4,7 @@
   Topics: def, return, Parameters, Arguments,
           Types of Functions (Built-in, User-defined,
           Lambda, Void)
-  Total Questions: 
+  Total Questions: 08
 ============================================
 """
 
