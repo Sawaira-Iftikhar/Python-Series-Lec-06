@@ -215,3 +215,13 @@ print("sum_of_squares(3, 4) =", sum_of_squares(3, 4))
 print("pythagoras(3, 4) =", pythagoras(3, 4))
 
 #-----------------------------------------------------------------------------------------
+
+# Q8. DOCSTRINGS:
+#      a) Write a function calculate_bmi(weight_kg, height_m) with a
+#         proper docstring explaining:
+#         - What the function does
+#         - Parameters and their types
+#         - Return value
+#      b) Print the docstring using: print(calculate_bmi.__doc__)
+#      c) Use help(calculate_bmi) to see the full documentation
+
