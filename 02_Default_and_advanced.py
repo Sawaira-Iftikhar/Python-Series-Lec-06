@@ -48,3 +48,9 @@ print(greet("Zainab", punctuation="?"))
 def calculate_salary(base, bonus=5000, tax_rate=0.1):
     net = (base + bonus) * (1 - tax_rate)
     return net
+
+# Testing the function
+print("Net Salary (default):", calculate_salary(50000))
+print("Net Salary (bonus 10k):", calculate_salary(50000, 10000))
+print("Net Salary (15% tax):", calculate_salary(50000, 10000, 0.15))
+print("Net Salary (20% tax):", calculate_salary(50000, tax_rate=0.2))
