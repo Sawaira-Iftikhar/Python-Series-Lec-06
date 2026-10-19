@@ -195,3 +195,8 @@ or when the function needs more explanation and readability.
 #     c) Define a function pythagoras(a, b) that uses sum_of_squares()
 #        and returns the square root (use ** 0.5)
 #     d) Test: pythagoras(3, 4) should return 5.0
+
+
+# 1. Function to calculate square
+def square(n):
+    return n * n
