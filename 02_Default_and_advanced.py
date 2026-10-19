@@ -54,3 +54,5 @@ print("Net Salary (default):", calculate_salary(50000))
 print("Net Salary (bonus 10k):", calculate_salary(50000, 10000))
 print("Net Salary (15% tax):", calculate_salary(50000, 10000, 0.15))
 print("Net Salary (20% tax):", calculate_salary(50000, tax_rate=0.2))
+
+#-----------------------------------------------------------------------------------------
