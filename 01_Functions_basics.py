@@ -168,3 +168,6 @@ print("100°C =", celsius_to_fahrenheit(100), "°F")
 # 1. Lambda to def
 def cube(x):
     return x ** 3
+
+# 2. def to lambda
+absolute = lambda n: n if n >= 0 else -n
