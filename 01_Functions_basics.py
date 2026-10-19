@@ -246,3 +246,6 @@ print(f"BMI: {bmi:.2f}")
 
 # Print the docstring
 print("Docstring:", calculate_bmi.__doc__)
+
+# Display full documentation
+help(calculate_bmi)
