@@ -187,3 +187,11 @@ or when the function needs more explanation and readability.
 # ==========================================
 #  PART C: FUNCTION BEHAVIOR & SCOPE 
 # ==========================================
+
+# Q7. FUNCTION CALLING ANOTHER FUNCTION:
+#     a) Define a function square(n) that returns n * n
+#     b) Define a function sum_of_squares(a, b) that uses square()
+#        to return square(a) + square(b)
+#     c) Define a function pythagoras(a, b) that uses sum_of_squares()
+#        and returns the square root (use ** 0.5)
+#     d) Test: pythagoras(3, 4) should return 5.0
