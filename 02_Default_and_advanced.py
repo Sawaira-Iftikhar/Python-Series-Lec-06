@@ -70,10 +70,15 @@ print("Net Salary (20% tax):", calculate_salary(50000, tax_rate=0.2))
 def create_profile(name, age, hobbies=None, is_active=True):
     if hobbies is None:
         hobbies = []
-        
+
     return {
         "name": name,
         "age": age,
         "hobbies": hobbies,
         "is_active": is_active
     }
+
+# Testing the function
+print(create_profile("Ali", 22))
+print(create_profile("Sara", 25, ["Reading", "Coding"]))
+print(create_profile("Hamza", 20, is_active=False))
