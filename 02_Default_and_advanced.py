@@ -88,3 +88,15 @@ print(create_profile("Hamza", 20, is_active=False))
 # ==========================================
 #  PART B: KEYWORD ARGUMENTS 
 # ==========================================
+
+# Q4. POSITIONAL vs KEYWORD ARGUMENTS:
+#     Define a function book_flight(from_city, to_city, date, seat="Economy")
+#
+#     Call it using:
+#     a) All positional arguments
+#     b) All keyword arguments (in any order!)
+#     c) Mixed: positional for from/to, keyword for date and seat
+#     d) What happens if you put a keyword arg BEFORE a positional arg?
+#        Try: book_flight(from_city="Lahore", "Karachi", "2025-01-15")
+#        Write the error as a comment.
+
