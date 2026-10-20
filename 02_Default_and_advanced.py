@@ -82,3 +82,5 @@ def create_profile(name, age, hobbies=None, is_active=True):
 print(create_profile("Ali", 22))
 print(create_profile("Sara", 25, ["Reading", "Coding"]))
 print(create_profile("Hamza", 20, is_active=False))
+
+#-----------------------------------------------------------------------------------------
