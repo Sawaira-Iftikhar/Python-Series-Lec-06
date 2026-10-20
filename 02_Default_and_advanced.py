@@ -66,3 +66,5 @@ print("Net Salary (20% tax):", calculate_salary(50000, tax_rate=0.2))
 #     a) create_profile("Ali", 22)
 #     b) create_profile("Sara", 25, ["Reading", "Coding"])
 #     c) create_profile("Hamza", 20, is_active=False)
+
+def create_profile(name, age, hobbies=None, is_active=True):
