@@ -100,3 +100,4 @@ print(create_profile("Hamza", 20, is_active=False))
 #        Try: book_flight(from_city="Lahore", "Karachi", "2025-01-15")
 #        Write the error as a comment.
 
+def book_flight(from_city, to_city, date, seat="Economy"):
