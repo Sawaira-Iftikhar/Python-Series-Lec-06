@@ -101,3 +101,4 @@ print(create_profile("Hamza", 20, is_active=False))
 #        Write the error as a comment.
 
 def book_flight(from_city, to_city, date, seat="Economy"):
+    return f"Flight: {from_city} → {to_city} on {date} ({seat})"
