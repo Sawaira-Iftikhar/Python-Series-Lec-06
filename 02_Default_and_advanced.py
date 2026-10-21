@@ -113,3 +113,7 @@ print(book_flight(to_city="Lahore", date="2025-02-20",
 # 3. Mixed positional and keyword arguments
 print(book_flight("Lahore", "Islamabad",
                   date="2025-03-10", seat="Business"))
+
+# 4. Keyword argument before a positional argument
+# print(book_flight(from_city="Lahore", "Karachi", "2025-01-15"))
+# SyntaxError: positional argument follows keyword argument
