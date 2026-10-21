@@ -119,3 +119,11 @@ print(book_flight("Lahore", "Islamabad",
 # SyntaxError: positional argument follows keyword argument
 
 #-----------------------------------------------------------------------------------------
+
+# Qc
+#     Define a function send_email(to, subject, *, cc=None, bcc=None, urgent=False)
+#     The * forces cc, bcc, and urgent to be keyword-only.
+#
+#     a) Call it correctly with keyword args for cc and urgent
+#     b) Try calling it with cc as a positional arg → Write the error
+
