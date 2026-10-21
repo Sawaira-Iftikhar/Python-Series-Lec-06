@@ -109,3 +109,7 @@ print(book_flight("Lahore", "Karachi", "2025-01-15"))
 # 2. All keyword arguments (in any order)
 print(book_flight(to_city="Lahore", date="2025-02-20",
                   seat="Business", from_city="Karachi"))
+
+# 3. Mixed positional and keyword arguments
+print(book_flight("Lahore", "Islamabad",
+                  date="2025-03-10", seat="Business"))
