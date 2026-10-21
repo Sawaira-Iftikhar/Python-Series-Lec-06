@@ -105,3 +105,7 @@ def book_flight(from_city, to_city, date, seat="Economy"):
 
 # 1. All positional arguments
 print(book_flight("Lahore", "Karachi", "2025-01-15"))
+
+# 2. All keyword arguments (in any order)
+print(book_flight(to_city="Lahore", date="2025-02-20",
+                  seat="Business", from_city="Karachi"))
