@@ -102,3 +102,6 @@ print(create_profile("Hamza", 20, is_active=False))
 
 def book_flight(from_city, to_city, date, seat="Economy"):
     return f"Flight: {from_city} → {to_city} on {date} ({seat})"
+
+# 1. All positional arguments
+print(book_flight("Lahore", "Karachi", "2025-01-15"))
