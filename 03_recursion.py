@@ -95,3 +95,10 @@ def factorial(n):
 
     # Recursive case
     return n * factorial(n - 1)
+
+# Testing the function
+print("factorial(0) =", factorial(0))
+print("factorial(1) =", factorial(1))
+print("factorial(5) =", factorial(5))
+print("factorial(10) =", factorial(10))
+print("factorial(-2) =", factorial(-2))
