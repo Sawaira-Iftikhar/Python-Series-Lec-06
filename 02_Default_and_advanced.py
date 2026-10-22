@@ -209,3 +209,7 @@ print_info(name="Ali", age=22, city="Lahore")
 def create_order(customer_name, *items, **details):
     print("==============================")
     print(f"Order for: {customer_name}")
+
+    print("Items:")
+    for index, item in enumerate(items, start=1):
+        print(f"  {index}. {item}")
