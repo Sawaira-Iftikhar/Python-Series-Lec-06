@@ -151,3 +151,13 @@ send_email(
 # ==========================================
 #  PART C: *args & **kwargs 
 # ==========================================
+
+# Q7. *args — VARIABLE POSITIONAL ARGUMENTS:
+#     a) Define a function total_sum(*args) that returns the sum of
+#        all arguments passed to it.
+#     b) Call it with: total_sum(1, 2, 3)
+#     c) Call it with: total_sum(10, 20, 30, 40, 50)
+#     d) Call it with: total_sum() (no arguments — should return 0)
+#     e) What is the TYPE of *args inside the function? Print it.
+
+
