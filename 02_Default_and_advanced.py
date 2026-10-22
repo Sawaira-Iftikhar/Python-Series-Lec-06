@@ -168,3 +168,6 @@ def total_sum(*args):
 
 # 2. Call with three arguments
 print("total_sum(1, 2, 3) =", total_sum(1, 2, 3))
+
+# 3. Call with five arguments
+print("total_sum(10, 20, 30, 40, 50) =", total_sum(10, 20, 30, 40, 50))
