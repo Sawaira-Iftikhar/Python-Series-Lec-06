@@ -131,3 +131,6 @@ print("fibonacci(0) =", fibonacci(0))
 print("fibonacci(1) =", fibonacci(1))
 print("fibonacci(6) =", fibonacci(6))
 print("fibonacci(10) =", fibonacci(10))
+
+# BONUS: Print the first 10 Fibonacci numbers
+numbers = []
