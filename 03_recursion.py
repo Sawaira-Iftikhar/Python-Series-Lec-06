@@ -57,3 +57,6 @@ countdown(5)
 #     → 4 + 3 + 2 + 1 = 10
 
 def recursive_sum(n):
+    # Base case
+    if n == 1:
+        return 1
