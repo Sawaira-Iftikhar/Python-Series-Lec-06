@@ -197,7 +197,7 @@ print_info(name="Ali", age=22, city="Lahore")
 
 #-----------------------------------------------------------------------------------------
 
-# Q9. COMBINING *args AND **kwargs:
+# Q8. COMBINING *args AND **kwargs:
 #     Define a function create_order(customer_name, *items, **details)
 #     that prints an order summary.
 #
