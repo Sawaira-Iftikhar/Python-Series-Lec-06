@@ -242,3 +242,7 @@ create_order(
 #      b) Define a function show_config(theme, lang, font_size) and call it
 #         by unpacking the dict: show_config(**config)
 #      c) What happens if the list/dict size doesn't match the parameters?
+
+
+numbers = [1, 2, 3, 4, 5]
+config = {"theme": "dark", "lang": "en", "font_size": 14}
