@@ -252,3 +252,7 @@ print("sum_list([]) =", sum_list([]))
 #      b) Recursive version: sum_digits_recursive(n) using recursion
 #
 #      Test both with n = 12345 → should return 15
+
+
+# 1. Iterative version using a while loop
+def sum_digits_iterative(n):
