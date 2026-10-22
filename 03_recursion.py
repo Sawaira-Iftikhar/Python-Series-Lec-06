@@ -195,3 +195,5 @@ print("power(2, -3) =", power(2, -3))
 #     → "i" + "H"
 #     → "iH"
 
+
+def reverse_string(s):
