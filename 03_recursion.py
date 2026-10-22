@@ -63,3 +63,8 @@ def recursive_sum(n):
 
    # Recursive case
     return n + recursive_sum(n - 1)
+
+# Testing the function
+print("recursive_sum(5) =", recursive_sum(5))
+print("recursive_sum(10) =", recursive_sum(10))
+print("recursive_sum(1) =", recursive_sum(1))
