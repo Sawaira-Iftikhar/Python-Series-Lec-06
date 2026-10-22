@@ -215,3 +215,16 @@ print('reverse_string("a") =', reverse_string("a"))
 # ==========================================
 #  PART C: ADVANCED RECURSION 
 # ==========================================
+
+# Q8. RECURSIVE LIST SUM:
+#     Define a function sum_list(lst) that returns the sum of all
+#     elements in a list using recursion. Do NOT use sum() or loops.
+#
+#     Base case: if list is empty, return 0
+#     Recursive case: return lst[0] + sum_list(lst[1:])
+#
+#     Test:
+#     sum_list([1, 2, 3, 4, 5]) → 15
+#     sum_list([10]) → 10
+#     sum_list([]) → 0
+
