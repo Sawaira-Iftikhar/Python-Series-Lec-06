@@ -213,3 +213,9 @@ def create_order(customer_name, *items, **details):
     print("Items:")
     for index, item in enumerate(items, start=1):
         print(f"  {index}. {item}")
+
+    print("Details:")
+    for key, value in details.items():
+        print(f"  {key}: {value}")
+
+    print("==============================")
