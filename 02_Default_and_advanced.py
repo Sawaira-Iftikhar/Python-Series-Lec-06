@@ -250,3 +250,5 @@ config = {"theme": "dark", "lang": "en", "font_size": 14}
 # 1. Unpacking a list using *
 def show_numbers(a, b, c, d, e):
     print(f"a={a}, b={b}, c={c}, d={d}, e={e}")
+
+show_numbers(*numbers)
