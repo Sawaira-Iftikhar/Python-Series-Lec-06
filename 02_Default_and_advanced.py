@@ -191,3 +191,6 @@ def print_info(**kwargs):
         print(f"{key}: {value}")
 
     print("Type of kwargs:", type(kwargs))
+
+# 2. Call the function
+print_info(name="Ali", age=22, city="Lahore")
