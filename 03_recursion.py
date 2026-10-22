@@ -117,3 +117,8 @@ print("factorial(-2) =", factorial(-2))
 #     fibonacci(10) → 55
 
 def fibonacci(n):
+     # Base cases
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
