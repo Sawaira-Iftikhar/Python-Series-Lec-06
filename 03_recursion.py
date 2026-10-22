@@ -104,3 +104,14 @@ print("factorial(10) =", factorial(10))
 print("factorial(-2) =", factorial(-2))
 
 #-----------------------------------------------------------------------------------------
+
+# Q4. FIBONACCI SEQUENCE:
+#     Define a function fibonacci(n) that returns the nth Fibonacci number.
+#     F(0) = 0, F(1) = 1
+#     F(n) = F(n-1) + F(n-2)
+#
+#     Test:
+#     fibonacci(0) → 0
+#     fibonacci(1) → 1
+#     fibonacci(6) → 8
+#     fibonacci(10) → 55
