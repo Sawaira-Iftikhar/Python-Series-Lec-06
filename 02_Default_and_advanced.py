@@ -258,3 +258,11 @@ def show_config(theme, lang, font_size):
     print(f"theme={theme}, lang={lang}, font_size={font_size}")
 
 show_config(**config)
+
+# 3. What happens if the size doesn't match the parameters?
+
+# If a list contains more or fewer values than the function
+# has parameters, Python raises a TypeError.
+
+# If a dictionary has missing required keys or extra keys that
+# do not match the function parameters, Python raises a TypeError.
