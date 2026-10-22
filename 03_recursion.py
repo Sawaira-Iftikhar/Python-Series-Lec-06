@@ -85,3 +85,6 @@ print("recursive_sum(1) =", recursive_sum(1))
 
 
 def factorial(n):
+    # Check for negative numbers
+    if n < 0:
+        return "Error: negative number"
