@@ -189,3 +189,5 @@ print("total_sum() =", total_sum())
 def print_info(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
+
+    print("Type of kwargs:", type(kwargs))
