@@ -156,3 +156,6 @@ print("First 10 Fibonacci:", ", ".join(map(str, numbers)))
 
 
 def power(base, exp): 
+        # Base case
+    if exp == 0:
+        return 1
