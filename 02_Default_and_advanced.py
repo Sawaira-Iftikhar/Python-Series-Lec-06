@@ -165,4 +165,6 @@ send_email(
 def total_sum(*args):
     print("Type of args:", type(args))
     return sum(args)
-   
+
+# 2. Call with three arguments
+print("total_sum(1, 2, 3) =", total_sum(1, 2, 3))
