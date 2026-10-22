@@ -120,7 +120,7 @@ print(book_flight("Lahore", "Islamabad",
 
 #-----------------------------------------------------------------------------------------
 
-# Qc
+#  Q5. KEYWORD-ONLY ARGUMENTS (using *):
 #     Define a function send_email(to, subject, *, cc=None, bcc=None, urgent=False)
 #     The * forces cc, bcc, and urgent to be keyword-only.
 #
