@@ -88,3 +88,7 @@ def factorial(n):
     # Check for negative numbers
     if n < 0:
         return "Error: negative number"
+
+    # Base case
+    if n == 0:
+        return 1
