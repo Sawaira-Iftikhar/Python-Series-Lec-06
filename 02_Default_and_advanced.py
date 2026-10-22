@@ -161,3 +161,6 @@ send_email(
 #     e) What is the TYPE of *args inside the function? Print it.
 
 
+# 1. Function to calculate the sum of all arguments
+def total_sum(*args):
+   
