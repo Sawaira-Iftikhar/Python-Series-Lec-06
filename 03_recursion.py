@@ -233,3 +233,6 @@ def sum_list(lst):
     # Base case
     if len(lst) == 0:
         return 0
+
+    # Recursive case
+    return lst[0] + sum_list(lst[1:])
