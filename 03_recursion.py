@@ -31,3 +31,6 @@ def countdown(n):
     # Recursive case
     print(n)
     countdown(n - 1)
+
+    # Calling the function
+countdown(5)
