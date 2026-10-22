@@ -230,3 +230,6 @@ print('reverse_string("a") =', reverse_string("a"))
 
 
 def sum_list(lst):
+    # Base case
+    if len(lst) == 0:
+        return 0
