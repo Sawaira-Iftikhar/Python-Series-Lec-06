@@ -188,12 +188,7 @@ print("power(2, -3) =", power(2, -3))
 #     reverse_string("Python") → "nohtyP"
 #     reverse_string("Hello")  → "olleH"
 #     reverse_string("a")      → "a"
-#
-#     Trace for "Hi":
-#     reverse_string("Hi")
-#     → reverse_string("i") + "H"
-#     → "i" + "H"
-#     → "iH"
+
 
 
 def reverse_string(s):
@@ -208,3 +203,11 @@ def reverse_string(s):
 print('reverse_string("Python") =', reverse_string("Python"))
 print('reverse_string("Hello") =', reverse_string("Hello"))
 print('reverse_string("a") =', reverse_string("a"))
+
+#     Trace for "Hi":
+#     reverse_string("Hi")
+#     → reverse_string("i") + "H"
+#     → "i" + "H"
+#     → "iH"
+
+#-----------------------------------------------------------------------------------------
