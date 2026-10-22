@@ -163,4 +163,6 @@ send_email(
 
 # 1. Function to calculate the sum of all arguments
 def total_sum(*args):
+    print("Type of args:", type(args))
+    return sum(args)
    
