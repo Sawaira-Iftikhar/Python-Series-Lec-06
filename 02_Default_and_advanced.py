@@ -194,3 +194,5 @@ def print_info(**kwargs):
 
 # 2. Call the function
 print_info(name="Ali", age=22, city="Lahore")
+
+#-----------------------------------------------------------------------------------------
