@@ -203,3 +203,8 @@ def reverse_string(s):
 
      # Recursive case
     return reverse_string(s[1:]) + s[0]
+
+# Testing the function
+print('reverse_string("Python") =', reverse_string("Python"))
+print('reverse_string("Hello") =', reverse_string("Hello"))
+print('reverse_string("a") =', reverse_string("a"))
