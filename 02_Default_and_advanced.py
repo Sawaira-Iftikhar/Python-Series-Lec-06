@@ -204,3 +204,8 @@ print_info(name="Ali", age=22, city="Lahore")
 #     Call it:
 #     create_order("Ali", "Laptop", "Mouse", "Keyboard",
 #                  payment="Credit Card", delivery="Express")
+
+
+def create_order(customer_name, *items, **details):
+    print("==============================")
+    print(f"Order for: {customer_name}")
