@@ -23,3 +23,7 @@
 
 
 def countdown(n):
+     # Base case
+    if n <= 0:
+        print(" Blast off!")
+        return
