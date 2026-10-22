@@ -166,3 +166,8 @@ def power(base, exp):
 
      # Recursive case
     return base * power(base, exp - 1)
+
+# Testing the function
+print("power(2, 10) =", power(2, 10))
+print("power(3, 4) =", power(3, 4))
+print("power(5, 0) =", power(5, 0))
