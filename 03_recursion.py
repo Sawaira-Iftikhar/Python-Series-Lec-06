@@ -197,3 +197,6 @@ print("power(2, -3) =", power(2, -3))
 
 
 def reverse_string(s):
+    # Base case
+    if len(s) <= 1:
+        return s
