@@ -176,3 +176,10 @@ print("total_sum(10, 20, 30, 40, 50) =", total_sum(10, 20, 30, 40, 50))
 print("total_sum() =", total_sum())
 
 #---------------------------------------------------------------------------------------
+
+# Q7. **kwargs — VARIABLE KEYWORD ARGUMENTS:
+#     a) Define a function print_info(**kwargs) that prints each
+#        key-value pair on a new line.
+#     b) Call it with: print_info(name="Ali", age=22, city="Lahore")
+#     c) What is the TYPE of **kwargs inside the function? Print it.
+
