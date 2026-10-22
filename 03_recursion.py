@@ -140,4 +140,16 @@ for i in range(10):
 
 print("First 10 Fibonacci:", ", ".join(map(str, numbers)))
 
-#----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+
+# Q5. POWER FUNCTION:
+#     Define a function power(base, exp) using recursion.
+#     Do NOT use the ** operator or math.pow().
+#
+#     Base case: if exp == 0, return 1
+#     Recursive case: return base * power(base, exp - 1)
+#
+#     Test:
+#     power(2, 10) → 1024
+#     power(3, 4)  → 81
+#     power(5, 0)  → 1
