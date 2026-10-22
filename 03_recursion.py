@@ -176,3 +176,22 @@ print("power(5, 0) =", power(5, 0))
 print("power(2, -3) =", power(2, -3))
 
 #-----------------------------------------------------------------------------------------
+
+# Q6. RECURSIVE STRING REVERSAL:
+#     Define a function reverse_string(s) that reverses a string
+#     using recursion. Do NOT use slicing [::-1].
+#
+#     Base case: if len(s) <= 1, return s
+#     Recursive case: return reverse_string(s[1:]) + s[0]
+#
+#     Test:
+#     reverse_string("Python") → "nohtyP"
+#     reverse_string("Hello")  → "olleH"
+#     reverse_string("a")      → "a"
+#
+#     Trace for "Hi":
+#     reverse_string("Hi")
+#     → reverse_string("i") + "H"
+#     → "i" + "H"
+#     → "iH"
+
