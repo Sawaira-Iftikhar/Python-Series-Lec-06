@@ -127,3 +127,5 @@ print(book_flight("Lahore", "Islamabad",
 #     a) Call it correctly with keyword args for cc and urgent
 #     b) Try calling it with cc as a positional arg → Write the error
 
+
+def send_email(to, subject, *, cc=None, bcc=None, urgent=False):
