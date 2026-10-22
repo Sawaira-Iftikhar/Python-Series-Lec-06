@@ -125,3 +125,9 @@ def fibonacci(n):
 
     # Recursive case
     return fibonacci(n - 1) + fibonacci(n - 2)
+
+# Testing the function
+print("fibonacci(0) =", fibonacci(0))
+print("fibonacci(1) =", fibonacci(1))
+print("fibonacci(6) =", fibonacci(6))
+print("fibonacci(10) =", fibonacci(10))
