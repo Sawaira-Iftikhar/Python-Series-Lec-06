@@ -81,4 +81,7 @@ print("recursive_sum(1) =", recursive_sum(1))
 #     Define a function factorial(n) that returns n!
 #     n! = n × (n-1) × (n-2) × ... × 1
 #     0! = 1 (base case)
-#
+
+
+
+def factorial(n):
