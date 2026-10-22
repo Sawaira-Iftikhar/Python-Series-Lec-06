@@ -163,3 +163,6 @@ def power(base, exp):
      # Handle negative exponents
     if exp < 0:
         return 1 / power(base, -exp)
+
+     # Recursive case
+    return base * power(base, exp - 1)
