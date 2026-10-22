@@ -141,3 +141,7 @@ send_email(
     cc="sara@test.com",
     urgent=True
 )
+
+# 2. Incorrect call: cc passed as a positional argument
+# send_email("ali@test.com", "Meeting Tomorrow", "sara@test.com")
+# TypeError: send_email() takes 2 positional arguments but 3 were given
