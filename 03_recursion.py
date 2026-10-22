@@ -171,3 +171,6 @@ def power(base, exp):
 print("power(2, 10) =", power(2, 10))
 print("power(3, 4) =", power(3, 4))
 print("power(5, 0) =", power(5, 0))
+
+# BONUS: Negative exponent
+print("power(2, -3) =", power(2, -3))
