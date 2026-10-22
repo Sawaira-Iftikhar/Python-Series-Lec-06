@@ -243,3 +243,12 @@ print("sum_list([10]) =", sum_list([10]))
 print("sum_list([]) =", sum_list([]))
 
 #------------------------------------------------------------------------------------------
+
+# Q8. RECURSION vs ITERATION COMPARISON:
+#      Write TWO versions of a function to calculate the sum of
+#      digits of a number:
+#
+#      a) Iterative version: sum_digits_iterative(n) using a while loop
+#      b) Recursive version: sum_digits_recursive(n) using recursion
+#
+#      Test both with n = 12345 → should return 15
