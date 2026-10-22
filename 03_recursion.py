@@ -159,3 +159,7 @@ def power(base, exp):
         # Base case
     if exp == 0:
         return 1
+
+     # Handle negative exponents
+    if exp < 0:
+        return 1 / power(base, -exp)
