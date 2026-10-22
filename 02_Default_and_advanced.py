@@ -256,3 +256,5 @@ show_numbers(*numbers)
 # 2. Unpacking a dictionary using **
 def show_config(theme, lang, font_size):
     print(f"theme={theme}, lang={lang}, font_size={font_size}")
+
+show_config(**config)
