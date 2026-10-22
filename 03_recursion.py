@@ -115,3 +115,5 @@ print("factorial(-2) =", factorial(-2))
 #     fibonacci(1) → 1
 #     fibonacci(6) → 8
 #     fibonacci(10) → 55
+
+def fibonacci(n):
