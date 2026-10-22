@@ -132,3 +132,12 @@ def send_email(to, subject, *, cc=None, bcc=None, urgent=False):
       print(f"Sending email to {to}")
       print(f"Subject: {subject}")
       print(f"CC: {cc} | Urgent: {urgent}")
+
+
+# 1. Correct call using keyword arguments
+send_email(
+    "ali@test.com",
+    "Meeting Tomorrow",
+    cc="sara@test.com",
+    urgent=True
+)
