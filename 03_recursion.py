@@ -134,3 +134,6 @@ print("fibonacci(10) =", fibonacci(10))
 
 # BONUS: Print the first 10 Fibonacci numbers
 numbers = []
+
+for i in range(10):
+    numbers.append(fibonacci(i))
