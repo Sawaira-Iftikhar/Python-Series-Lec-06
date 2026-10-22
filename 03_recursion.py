@@ -228,3 +228,5 @@ print('reverse_string("a") =', reverse_string("a"))
 #     sum_list([10]) → 10
 #     sum_list([]) → 0
 
+
+def sum_list(lst):
