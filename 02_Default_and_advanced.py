@@ -129,3 +129,6 @@ print(book_flight("Lahore", "Islamabad",
 
 
 def send_email(to, subject, *, cc=None, bcc=None, urgent=False):
+      print(f"Sending email to {to}")
+      print(f"Subject: {subject}")
+      print(f"CC: {cc} | Urgent: {urgent}")
