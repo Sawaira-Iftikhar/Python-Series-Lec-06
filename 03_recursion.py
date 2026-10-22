@@ -236,3 +236,8 @@ def sum_list(lst):
 
     # Recursive case
     return lst[0] + sum_list(lst[1:])
+
+# Testing the function
+print("sum_list([1, 2, 3, 4, 5]) =", sum_list([1, 2, 3, 4, 5]))
+print("sum_list([10]) =", sum_list([10]))
+print("sum_list([]) =", sum_list([]))
