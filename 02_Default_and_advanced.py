@@ -152,7 +152,7 @@ send_email(
 #  PART C: *args & **kwargs 
 # ==========================================
 
-# Q7. *args — VARIABLE POSITIONAL ARGUMENTS:
+# Q6. *args — VARIABLE POSITIONAL ARGUMENTS:
 #     a) Define a function total_sum(*args) that returns the sum of
 #        all arguments passed to it.
 #     b) Call it with: total_sum(1, 2, 3)
@@ -174,3 +174,5 @@ print("total_sum(10, 20, 30, 40, 50) =", total_sum(10, 20, 30, 40, 50))
 
 # 4. Call with no arguments
 print("total_sum() =", total_sum())
+
+#---------------------------------------------------------------------------------------
