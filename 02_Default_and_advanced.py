@@ -196,3 +196,11 @@ def print_info(**kwargs):
 print_info(name="Ali", age=22, city="Lahore")
 
 #-----------------------------------------------------------------------------------------
+
+# Q9. COMBINING *args AND **kwargs:
+#     Define a function create_order(customer_name, *items, **details)
+#     that prints an order summary.
+#
+#     Call it:
+#     create_order("Ali", "Laptop", "Mouse", "Keyboard",
+#                  payment="Credit Card", delivery="Express")
