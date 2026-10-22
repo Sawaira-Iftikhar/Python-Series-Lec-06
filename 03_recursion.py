@@ -36,3 +36,24 @@ def countdown(n):
 countdown(5)
 
 #--------------------------------------------------------------------------------------------
+
+# Q2. RECURSIVE SUM:
+#     Define a function recursive_sum(n) that returns the sum of
+#     all numbers from 1 to n using recursion.
+#
+#     Base case: if n == 1, return 1
+#     Recursive case: return n + recursive_sum(n - 1)
+#
+#     Test:
+#     recursive_sum(5)  → 15  (1+2+3+4+5)
+#     recursive_sum(10) → 55
+#     recursive_sum(1)  → 1
+#
+#     BONUS: Trace the call stack for recursive_sum(4) in a comment:
+#     recursive_sum(4)
+#     → 4 + recursive_sum(3)
+#     → 4 + 3 + recursive_sum(2)
+#     → 4 + 3 + 2 + recursive_sum(1)
+#     → 4 + 3 + 2 + 1 = 10
+
+
