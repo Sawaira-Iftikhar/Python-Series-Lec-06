@@ -48,13 +48,8 @@ countdown(5)
 #     recursive_sum(5)  → 15  (1+2+3+4+5)
 #     recursive_sum(10) → 55
 #     recursive_sum(1)  → 1
-#
-#     BONUS: Trace the call stack for recursive_sum(4) in a comment:
-#     recursive_sum(4)
-#     → 4 + recursive_sum(3)
-#     → 4 + 3 + recursive_sum(2)
-#     → 4 + 3 + 2 + recursive_sum(1)
-#     → 4 + 3 + 2 + 1 = 10
+
+
 
 def recursive_sum(n):
     # Base case
@@ -68,3 +63,10 @@ def recursive_sum(n):
 print("recursive_sum(5) =", recursive_sum(5))
 print("recursive_sum(10) =", recursive_sum(10))
 print("recursive_sum(1) =", recursive_sum(1))
+
+#     BONUS: Trace the call stack for recursive_sum(4) in a comment:
+#     recursive_sum(4)
+#     → 4 + recursive_sum(3)
+#     → 4 + 3 + recursive_sum(2)
+#     → 4 + 3 + 2 + recursive_sum(1)
+#     → 4 + 3 + 2 + 1 = 10
