@@ -219,3 +219,13 @@ def create_order(customer_name, *items, **details):
         print(f"  {key}: {value}")
 
     print("==============================")
+
+# Calling the function
+create_order(
+    "Ali",
+    "Laptop",
+    "Mouse",
+    "Keyboard",
+    payment="Credit Card",
+    delivery="Express"
+)
