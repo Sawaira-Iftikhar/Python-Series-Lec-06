@@ -153,3 +153,6 @@ print("First 10 Fibonacci:", ", ".join(map(str, numbers)))
 #     power(2, 10) → 1024
 #     power(3, 4)  → 81
 #     power(5, 0)  → 1
+
+
+def power(base, exp): 
