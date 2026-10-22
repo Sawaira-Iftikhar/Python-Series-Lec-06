@@ -183,3 +183,9 @@ print("total_sum() =", total_sum())
 #     b) Call it with: print_info(name="Ali", age=22, city="Lahore")
 #     c) What is the TYPE of **kwargs inside the function? Print it.
 
+
+
+# 1. Function to print each key-value pair
+def print_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
