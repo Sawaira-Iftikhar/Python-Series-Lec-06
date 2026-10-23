@@ -212,3 +212,7 @@ def total_size(node):
 # 3. Recursive function to find files by extension
 def find_files(node, extension):
     files = []
+
+    if node["type"] == "file":
+        if node["name"].endswith(extension):
+            files.append(node["name"])
