@@ -67,3 +67,8 @@ def calculate(operation, *args, precision=2):
     # Perform the requested operation
     if operation == "add":
         result = sum(args)
+
+    elif operation == "multiply":
+            result = 1
+            for num in args:
+                result *= num
