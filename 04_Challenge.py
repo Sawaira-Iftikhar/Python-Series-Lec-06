@@ -239,3 +239,8 @@ def search_file(node, filename, path=""):
             return result
 
     return None
+
+# Display results
+print("=" * 50)
+print("        📁 FILE SYSTEM EXPLORER")
+print("=" * 50)
