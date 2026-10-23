@@ -304,3 +304,8 @@ def hanoi(n, source="A", aux="B", dest="C", step=[0]):
     # Move n-1 disks from source to auxiliary
     hanoi(n - 1, source, dest, aux, step)
 
+     # Move the largest disk from source to destination
+    step[0] += 1
+    print(f"Step {step[0]}: Move disk {n} from {source} → {dest}")
+
+
