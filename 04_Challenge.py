@@ -107,3 +107,9 @@ result = calculate("average", 85, 92, 78, 95, precision=1)
 print("average(85, 92, 78, 95, precision=1):")
 print(f"  Raw: {result} | Formatted: {format_result(result)}")
 print()
+
+# Multiplication
+result = calculate("multiply", 2, 3, 4, 5)
+print("multiply(2, 3, 4, 5):")
+print(f"  Raw: {result} | Formatted: {format_result(result)}")
+print()
