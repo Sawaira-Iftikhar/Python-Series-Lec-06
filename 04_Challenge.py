@@ -295,3 +295,9 @@ Tasks:
 # 1. Recursive function to solve Tower of Hanoi
 def hanoi(n, source="A", aux="B", dest="C", step=[0]):
 
+    # Base case: Only one disk needs to be moved
+    if n == 1:
+        step[0] += 1
+        print(f"Step {step[0]}: Move disk 1 from {source} → {dest}")
+        return
+
