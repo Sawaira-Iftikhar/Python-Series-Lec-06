@@ -129,3 +129,27 @@ print("=" * 50)
 #  CHALLENGE 2: The Recursive File System Explorer 
 #  Topics: Recursion, Nested Dicts, Default Params, **kwargs
 # ==========================================
+
+"""
+Simulate a file system explorer using recursion and nested dictionaries.
+
+
+Tasks:
+1. Write a RECURSIVE function display_tree(node, indent=0) that
+   prints the file system as a tree structure.
+   - Folders get a 📁 icon
+   - Files get a 📄 icon with their size
+   - Use indent to show nesting depth
+
+2. Write a RECURSIVE function total_size(node) that calculates
+   the total size of ALL files in the entire file system.
+
+3. Write a RECURSIVE function find_files(node, extension) that
+   returns a list of all file names matching a given extension.
+   Example: find_files(file_system, ".py") → ["app.py"]
+
+4. Write a function search_file(node, filename, path="") that
+   returns the full path to a file.
+   Example: search_file(file_system, "data.csv") → "root/Documents/Projects/data.csv"
+"""
+
