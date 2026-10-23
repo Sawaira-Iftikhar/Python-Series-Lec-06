@@ -76,6 +76,8 @@ def calculate(operation, *args, precision=2):
     elif operation == "average":
         result = sum(args) / len(args)
 
-
     elif operation == "max":
         result = max(args)
+
+    elif operation == "min":
+        result = min(args)
