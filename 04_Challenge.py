@@ -308,7 +308,9 @@ def hanoi(n, source="A", aux="B", dest="C", step=[0]):
     step[0] += 1
     print(f"Step {step[0]}: Move disk {n} from {source} → {dest}")
 
+
      # Move n-1 disks from auxiliary to destination
     hanoi(n - 1, aux, source, dest, step)
+
 
 
