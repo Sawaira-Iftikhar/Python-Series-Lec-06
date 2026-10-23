@@ -113,3 +113,8 @@ result = calculate("multiply", 2, 3, 4, 5)
 print("multiply(2, 3, 4, 5):")
 print(f"  Raw: {result} | Formatted: {format_result(result)}")
 print()
+
+# Unknown operation
+print("unknown(1, 2):")
+print(" ", calculate("unknown", 1, 2))
+print()
