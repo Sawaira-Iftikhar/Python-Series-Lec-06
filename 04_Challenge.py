@@ -9,7 +9,6 @@
 # ==========================================
 #  CHALLENGE 1: The Smart Calculator Engine 
 #  Topics: Functions, Default Params, *args, Lambda, Nested Functions
-#  Difficulty: Medium-Hard
 # ==========================================
 
 """
@@ -125,3 +124,8 @@ print(" ", calculate("add"))
 print("=" * 50)
 
 #------------------------------------------------------------------------------------------
+
+# ==========================================
+#  CHALLENGE 2: The Recursive File System Explorer 
+#  Topics: Recursion, Nested Dicts, Default Params, **kwargs
+# ==========================================
