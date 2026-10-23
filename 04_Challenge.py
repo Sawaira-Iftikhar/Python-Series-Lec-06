@@ -188,3 +188,5 @@ file_system = {
 
 # 1. Recursive function to display the file system tree
 def display_tree(node, indent=0):
+     if node["type"] == "folder":
+        print("  " * indent + f"📁 {node['name']}")
