@@ -231,3 +231,6 @@ def search_file(node, filename, path=""):
         if node["name"] == filename:
             return current_path
         return None
+
+    for child in node.get("children", []):
+        result = search_file(child, filename, current_path)
