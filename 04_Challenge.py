@@ -222,3 +222,7 @@ def find_files(node, extension):
             files.extend(find_files(child, extension))
 
     return files
+
+# 4. Function to search for a file and return its full path
+def search_file(node, filename, path=""):
+    current_path = f"{path}/{node['name']}" if path else node["name"]
