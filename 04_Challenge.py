@@ -196,3 +196,6 @@ def display_tree(node, indent=0):
 
      else:
         print("  " * indent + f"📄 {node['name']} ({node['size']} KB)")
+
+# 2. Recursive function to calculate the total size
+def total_size(node):
