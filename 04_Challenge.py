@@ -190,3 +190,6 @@ file_system = {
 def display_tree(node, indent=0):
      if node["type"] == "folder":
         print("  " * indent + f"📁 {node['name']}")
+
+        for child in node.get("children", []):
+            display_tree(child, indent + 1)
