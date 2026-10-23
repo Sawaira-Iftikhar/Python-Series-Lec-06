@@ -220,3 +220,5 @@ def find_files(node, extension):
     else:
         for child in node.get("children", []):
             files.extend(find_files(child, extension))
+
+    return files
