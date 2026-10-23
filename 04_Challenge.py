@@ -95,3 +95,9 @@ format_result = lambda number: f"Result: ${number:.2f}"
 print("=" * 50)
 print("            SMART CALCULATOR")
 print("=" * 50)
+
+# Addition
+result = calculate("add", 10, 20, 30)
+print("add(10, 20, 30):")
+print(f"  Raw: {result} | Formatted: {format_result(result)}")
+print()
