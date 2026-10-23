@@ -274,4 +274,7 @@ def sum_digits_recursive(n):
     if n == 0:
         return 0
 
+     # Recursive case
+    return (n % 10) + sum_digits_recursive(n // 10)
+
     
