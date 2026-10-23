@@ -90,3 +90,8 @@ def calculate(operation, *args, precision=2):
 
 # 2. Lambda function to format the result
 format_result = lambda number: f"Result: ${number:.2f}"
+
+# 4. Test the calculator
+print("=" * 50)
+print("            SMART CALCULATOR")
+print("=" * 50)
