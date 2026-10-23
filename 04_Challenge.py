@@ -237,3 +237,5 @@ def search_file(node, filename, path=""):
 
         if result is not None:
             return result
+
+    return None
