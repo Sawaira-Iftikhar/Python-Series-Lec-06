@@ -203,3 +203,6 @@ def total_size(node):
         return node["size"]
 
     size = 0
+
+    for child in node.get("children", []):
+        size += total_size(child)
