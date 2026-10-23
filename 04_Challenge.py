@@ -72,3 +72,6 @@ def calculate(operation, *args, precision=2):
             result = 1
             for num in args:
                 result *= num
+
+    elif operation == "average":
+        result = sum(args) / len(args)
