@@ -258,3 +258,10 @@ print("sum_list([]) =", sum_list([]))
 def sum_digits_iterative(n):
        n = abs(n)
        total = 0 
+
+       while n > 0:
+               digit = n % 10
+               total += digit
+               n //= 10
+
+    
