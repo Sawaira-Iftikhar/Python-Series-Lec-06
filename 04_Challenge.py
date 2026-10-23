@@ -247,4 +247,11 @@ print("=" * 50)
 
 display_tree(file_system)
 
+print("-" * 50)
+print("Total Size:", total_size(file_system), "KB")
+print("Python Files:", find_files(file_system, ".py"))
+print("Path to data.csv:", search_file(file_system, "data.csv"))
+
+print("=" * 50)
+
 
