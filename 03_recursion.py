@@ -256,3 +256,5 @@ print("sum_list([]) =", sum_list([]))
 
 # 1. Iterative version using a while loop
 def sum_digits_iterative(n):
+       n = abs(n)
+       total = 0 
