@@ -201,3 +201,5 @@ def display_tree(node, indent=0):
 def total_size(node):
     if node["type"] == "file":
         return node["size"]
+
+    size = 0
