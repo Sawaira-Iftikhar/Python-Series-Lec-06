@@ -244,3 +244,7 @@ def search_file(node, filename, path=""):
 print("=" * 50)
 print("        📁 FILE SYSTEM EXPLORER")
 print("=" * 50)
+
+display_tree(file_system)
+
+
