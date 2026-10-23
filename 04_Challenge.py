@@ -185,3 +185,6 @@ file_system = {
         {"name": "readme.md", "type": "file", "size": 10}
     ]
 }
+
+# 1. Recursive function to display the file system tree
+def display_tree(node, indent=0):
