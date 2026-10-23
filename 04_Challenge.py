@@ -81,3 +81,6 @@ def calculate(operation, *args, precision=2):
 
     elif operation == "min":
         result = min(args)
+
+    else:
+        return "Error: Unknown operation"
