@@ -63,3 +63,7 @@ def calculate(operation, *args, precision=2):
      # Validate that all arguments are numbers
     if not validate():
         return "Error: All arguments must be numbers"
+
+    # Perform the requested operation
+    if operation == "add":
+        result = sum(args)
