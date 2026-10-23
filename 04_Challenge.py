@@ -193,3 +193,6 @@ def display_tree(node, indent=0):
 
         for child in node.get("children", []):
             display_tree(child, indent + 1)
+
+     else:
+        print("  " * indent + f"📄 {node['name']} ({node['size']} KB)")
