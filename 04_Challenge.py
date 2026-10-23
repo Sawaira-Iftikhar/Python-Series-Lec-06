@@ -226,3 +226,8 @@ def find_files(node, extension):
 # 4. Function to search for a file and return its full path
 def search_file(node, filename, path=""):
     current_path = f"{path}/{node['name']}" if path else node["name"]
+
+    if node["type"] == "file":
+        if node["name"] == filename:
+            return current_path
+        return None
