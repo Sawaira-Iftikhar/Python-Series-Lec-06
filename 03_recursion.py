@@ -277,4 +277,7 @@ def sum_digits_recursive(n):
      # Recursive case
     return (n % 10) + sum_digits_recursive(n // 10)
 
+# Testing both functions
+n = 12345
+
     
