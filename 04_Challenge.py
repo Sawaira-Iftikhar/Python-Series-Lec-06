@@ -87,3 +87,6 @@ def calculate(operation, *args, precision=2):
 
      # Round the result to the specified precision
     return round(result, precision)
+
+# 2. Lambda function to format the result
+format_result = lambda number: f"Result: ${number:.2f}"
