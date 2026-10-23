@@ -199,3 +199,5 @@ def display_tree(node, indent=0):
 
 # 2. Recursive function to calculate the total size
 def total_size(node):
+    if node["type"] == "file":
+        return node["size"]
