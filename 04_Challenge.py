@@ -261,4 +261,37 @@ print("=" * 50)
 #  Topics: Recursion, Default Params, Function Composition
 # ==========================================
 
+"""
+Solve the classic Tower of Hanoi puzzle using recursion.
+
+Rules:
+- You have 3 rods: Source (A), Auxiliary (B), Destination (C)
+- Move n disks from A to C using B as helper
+- Only one disk can be moved at a time
+- A larger disk can NEVER be placed on top of a smaller disk
+
+Tasks:
+1. Write a RECURSIVE function hanoi(n, source="A", aux="B", dest="C")
+   that prints each move step by step.
+
+2. Write a function count_moves(n) that returns the total number
+   of moves required for n disks. (Formula: 2^n - 1, but implement
+   it recursively!)
+
+3. Write a wrapper function solve_hanoi(n) that:
+   - Validates n (must be positive integer)
+   - Prints the total moves needed
+   - Calls hanoi() to show all steps
+   - Uses a default parameter for showing/hiding steps
+
+4. Test with n = 3 and n = 4.
+
+"""
+
+"""
+                         TOWER OF HANOI
+"""
+
+# 1. Recursive function to solve Tower of Hanoi
+def hanoi(n, source="A", aux="B", dest="C", step=[0]):
 
