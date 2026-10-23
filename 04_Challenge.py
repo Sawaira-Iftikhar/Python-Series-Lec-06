@@ -84,3 +84,6 @@ def calculate(operation, *args, precision=2):
 
     else:
         return "Error: Unknown operation"
+
+     # Round the result to the specified precision
+    return round(result, precision)
