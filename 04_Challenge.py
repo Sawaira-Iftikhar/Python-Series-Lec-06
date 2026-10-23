@@ -101,3 +101,9 @@ result = calculate("add", 10, 20, 30)
 print("add(10, 20, 30):")
 print(f"  Raw: {result} | Formatted: {format_result(result)}")
 print()
+
+# Average
+result = calculate("average", 85, 92, 78, 95, precision=1)
+print("average(85, 92, 78, 95, precision=1):")
+print(f"  Raw: {result} | Formatted: {format_result(result)}")
+print()
