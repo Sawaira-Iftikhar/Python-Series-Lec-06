@@ -118,3 +118,8 @@ print()
 print("unknown(1, 2):")
 print(" ", calculate("unknown", 1, 2))
 print()
+
+# No arguments
+print("add() [no args]:")
+print(" ", calculate("add"))
+print("=" * 50)
