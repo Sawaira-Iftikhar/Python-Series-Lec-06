@@ -153,3 +153,35 @@ Tasks:
    Example: search_file(file_system, "data.csv") → "root/Documents/Projects/data.csv"
 """
 
+# Given File System Structure:
+file_system = {
+    "name": "root",
+    "type": "folder",
+    "children": [
+        {
+            "name": "Documents",
+            "type": "folder",
+            "children": [
+                {"name": "resume.pdf", "type": "file", "size": 250},
+                {"name": "notes.txt", "type": "file", "size": 15},
+                {
+                    "name": "Projects",
+                    "type": "folder",
+                    "children": [
+                        {"name": "app.py", "type": "file", "size": 45},
+                        {"name": "data.csv", "type": "file", "size": 1200}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Photos",
+            "type": "folder",
+            "children": [
+                {"name": "vacation.jpg", "type": "file", "size": 3500},
+                {"name": "profile.png", "type": "file", "size": 800}
+            ]
+        },
+        {"name": "readme.md", "type": "file", "size": 10}
+    ]
+}
