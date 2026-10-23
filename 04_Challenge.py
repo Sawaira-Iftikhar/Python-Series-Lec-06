@@ -55,3 +55,7 @@ def calculate(operation, *args, precision=2):
       # 3. Nested function to validate arguments
     def validate():
         return all(isinstance(num, (int, float)) for num in args)
+
+     # Check if arguments are provided
+    if not args:
+        return "Error: No numbers given"
