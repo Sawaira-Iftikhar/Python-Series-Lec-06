@@ -48,3 +48,6 @@ Requirements:
 """
                              SMART CALCULATOR
 """
+
+# 1. Define the calculator function
+def calculate(operation, *args, precision=2):
