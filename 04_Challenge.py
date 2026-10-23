@@ -44,3 +44,7 @@ Requirements:
    calculate("add")
 """
 
+
+"""
+                             SMART CALCULATOR
+"""
