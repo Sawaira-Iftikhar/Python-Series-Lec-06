@@ -208,3 +208,7 @@ def total_size(node):
         size += total_size(child)
 
     return size
+
+# 3. Recursive function to find files by extension
+def find_files(node, extension):
+    files = []
