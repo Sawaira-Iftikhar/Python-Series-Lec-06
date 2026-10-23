@@ -280,4 +280,7 @@ def sum_digits_recursive(n):
 # Testing both functions
 n = 12345
 
+print("Iterative:", sum_digits_iterative(n))
+print("Recursive:", sum_digits_recursive(n))
+
     
