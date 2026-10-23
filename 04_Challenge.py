@@ -216,3 +216,7 @@ def find_files(node, extension):
     if node["type"] == "file":
         if node["name"].endswith(extension):
             files.append(node["name"])
+
+    else:
+        for child in node.get("children", []):
+            files.extend(find_files(child, extension))
