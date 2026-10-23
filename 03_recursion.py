@@ -270,4 +270,8 @@ def sum_digits_iterative(n):
 def sum_digits_recursive(n):
     n = abs(n)
 
+      # `Base case`
+    if n == 0:
+        return 0
+
     
