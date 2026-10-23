@@ -59,3 +59,7 @@ def calculate(operation, *args, precision=2):
      # Check if arguments are provided
     if not args:
         return "Error: No numbers given"
+
+     # Validate that all arguments are numbers
+    if not validate():
+        return "Error: All arguments must be numbers"
