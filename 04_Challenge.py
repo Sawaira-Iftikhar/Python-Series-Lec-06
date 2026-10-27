@@ -335,3 +335,6 @@ def solve_hanoi(n, show_steps=True):
     print("=" * 50)
 
     print(f"Solving for {n} disks...")
+
+    total = count_moves(n)
+    print(f"Total moves required: {total}")
