@@ -329,3 +329,7 @@ def solve_hanoi(n, show_steps=True):
     if not isinstance(n, int) or isinstance(n, bool) or n <= 0:
         print("Error: Number of disks must be a positive integer.")
         return
+
+    print("=" * 50)
+    print("           TOWER OF HANOI")
+    print("=" * 50)
