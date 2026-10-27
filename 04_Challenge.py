@@ -338,3 +338,6 @@ def solve_hanoi(n, show_steps=True):
 
     total = count_moves(n)
     print(f"Total moves required: {total}")
+
+    if show_steps:
+        print("-" * 50)
