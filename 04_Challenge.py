@@ -341,3 +341,7 @@ def solve_hanoi(n, show_steps=True):
 
     if show_steps:
         print("-" * 50)
+
+         # Use a fresh step counter for each solution
+        step = [0]
+        hanoi(n, "A", "B", "C", step)
