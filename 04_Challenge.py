@@ -314,7 +314,11 @@ def hanoi(n, source="A", aux="B", dest="C", step=[0]):
 
 # 2. Recursive function to count total moves
 def count_moves(n):
+
     # Base case
     if n == 0:
         return 0
+
+    # Recursive case: 2 * moves for n-1 disks + 1 move
+    return 2 * count_moves(n - 1) + 1
 
