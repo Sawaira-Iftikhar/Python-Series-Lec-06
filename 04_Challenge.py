@@ -324,3 +324,8 @@ def count_moves(n):
 
 # 3. Wrapper function to solve the puzzle
 def solve_hanoi(n, show_steps=True):
+
+     # Validate input
+    if not isinstance(n, int) or isinstance(n, bool) or n <= 0:
+        print("Error: Number of disks must be a positive integer.")
+        return
