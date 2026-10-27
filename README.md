@@ -19,3 +19,5 @@
 | [02_Default_and_advanced.py](02_Default_and_advanced.py) | Default Params, Keyword Args, `*args`, `**kwargs` | 09 |
 | [03_recursion.py](03_recursion.py) | Recursion, Base Case, Factorial, Fibonacci | 08 |
 | [04_Challenge.py}](04_Challenge.py) | ALL Topics Mixed (Boss Level) | 03 |
+
+## 💡 Quick Cheat Sheet (Lecture 6 Highlights)
