@@ -333,3 +333,5 @@ def solve_hanoi(n, show_steps=True):
     print("=" * 50)
     print("           TOWER OF HANOI")
     print("=" * 50)
+
+    print(f"Solving for {n} disks...")
