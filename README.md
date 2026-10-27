@@ -21,3 +21,8 @@
 | [04_Challenge.py}](04_Challenge.py) | ALL Topics Mixed (Boss Level) | 03 |
 
 ## 💡 Quick Cheat Sheet (Lecture 6 Highlights)
+
+<details>
+<summary><b>Click to expand quick revision notes</b></summary>
+
+<br>
