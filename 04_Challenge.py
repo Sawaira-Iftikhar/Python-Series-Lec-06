@@ -348,3 +348,5 @@ def solve_hanoi(n, show_steps=True):
 
         print("-" * 50)
         print(f" Solved in {total} moves!")
+
+    print("=" * 50)
