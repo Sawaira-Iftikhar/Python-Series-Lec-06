@@ -12,3 +12,10 @@
 | 6 | Recursion vs Iteration & Real-world Recursive Problems | ✅ |
 
 ## 📂 Practice Files
+
+| File | Topics | Difficulty | Questions |
+|------|--------|:----------:|:---------:|
+| [01_Functions_basics.py](01_Functions_basics.py) | `def`, `return`, Parameters, Types of Functions | 08 |
+| [02_Default_and_advanced.py](02_Default_and_advanced.py) | Default Params, Keyword Args, `*args`, `**kwargs` | 09 |
+| [03_recursion.py](03_recursion.py) | Recursion, Base Case, Factorial, Fibonacci | 08 |
+| [04_Challenge.py}](04_Challenge.py) | ALL Topics Mixed (Boss Level) | 03 |
