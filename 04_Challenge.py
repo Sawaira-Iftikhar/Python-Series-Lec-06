@@ -322,3 +322,5 @@ def count_moves(n):
     # Recursive case: 2 * moves for n-1 disks + 1 move
     return 2 * count_moves(n - 1) + 1
 
+# 3. Wrapper function to solve the puzzle
+def solve_hanoi(n, show_steps=True):
