@@ -28,3 +28,13 @@
 <br>
 
 ### 1. Function Anatomy
+
+```python
+def function_name(parameter1, parameter2=default_value):
+    """Docstring: describes what the function does."""
+    # Function body
+    result = parameter1 + parameter2
+    return result          # Returns value to caller
+
+# Calling the function
+output = function_name(10, 20)
