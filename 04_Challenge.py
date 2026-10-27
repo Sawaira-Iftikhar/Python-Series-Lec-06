@@ -312,5 +312,6 @@ def hanoi(n, source="A", aux="B", dest="C", step=[0]):
      # Move n-1 disks from auxiliary to destination
     hanoi(n - 1, aux, source, dest, step)
 
-
+# 2. Recursive function to count total moves
+def count_moves(n):
 
