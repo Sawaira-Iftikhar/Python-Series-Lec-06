@@ -353,3 +353,5 @@ def solve_hanoi(n, show_steps=True):
 
 # 4. Test with 3 disks
 solve_hanoi(3)
+
+print()
