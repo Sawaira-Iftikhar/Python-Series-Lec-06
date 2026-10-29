@@ -45,3 +45,4 @@ output = function_name(10, 20)
 |------|------------|--------|
 |**Built-in** | Pre-defined by Python | `print()`, `len()`,`max()`, `type()` |
 |**User-defined** | Created by you using `def` | `def greet(name): ...` |
+| **Lambda** | Anonymous one-liner function | `square = lambda x: x ** 2` |
