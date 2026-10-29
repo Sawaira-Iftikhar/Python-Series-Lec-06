@@ -98,3 +98,17 @@ Python's default recursion limit is 1000 (sys.getrecursionlimit()).
 
 ### 5. Common Gotchas
 
+```Python
+# ❌ Mutable default argument trap:
+def add_item(item, lst=[]):   # DANGEROUS!
+    lst.append(item)
+    return lst
+
+# ✅ Correct approach:
+def add_item(item, lst=None):
+    if lst is None:
+        lst = []
+    lst.append(item)
+    return lst
+```
+
