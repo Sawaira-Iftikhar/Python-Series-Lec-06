@@ -44,3 +44,4 @@ output = function_name(10, 20)
 | Type | Descripton | Example|
 |------|------------|--------|
 |**Built-in** | Pre-defined by Python | `print()`, `len()`,`max()`, `type()` |
+|**User-defined** | Created by you using `def` | `def greet(name): ...` |
