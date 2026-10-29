@@ -2,6 +2,7 @@
 
 🐍 Lecture 06 of 9 — Python Functions: Types, Default Parameters, *args/**kwargs, Lambda & Recursion. 33 hands-on practice questions with real-world challenges.
 
+
 ## 📚 Topics Covered
 
 | # | Topic | Status |
