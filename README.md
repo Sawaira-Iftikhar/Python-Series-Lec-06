@@ -111,4 +111,5 @@ def add_item(item, lst=None):
     lst.append(item)
     return lst
 ```
+</details>
 
