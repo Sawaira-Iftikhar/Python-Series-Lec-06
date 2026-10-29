@@ -47,3 +47,4 @@ output = function_name(10, 20)
 |**User-defined** | Created by you using `def` | `def greet(name): ...` |
 | **Lambda** | Anonymous one-liner function | `square = lambda x: x ** 2` |
 | **Void** | Performs action but returns `None` | `def log(msg): print(msg)` |
+| **Recursive** | Calls itself | `def factorial(n): ...` |
