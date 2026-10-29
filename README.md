@@ -96,3 +96,5 @@ Always define a base case (or you get RecursionError).
 Each call must move closer to the base case.
 Python's default recursion limit is 1000 (sys.getrecursionlimit()).
 
+### 5. Common Gotchas
+
