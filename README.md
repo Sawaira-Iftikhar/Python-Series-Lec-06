@@ -43,4 +43,4 @@ output = function_name(10, 20)
 ### 2. Types of Functions
 | Type | Descripton | Example|
 |------|------------|--------|
-|**Built-in** | Pre-defined by Python | 'print()', 'len()', 'max()', 'type()' |
+|**Built-in** | Pre-defined by Python | `print()`, `len()`,`max()`, `type()` |
