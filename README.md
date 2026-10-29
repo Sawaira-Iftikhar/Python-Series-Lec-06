@@ -51,3 +51,29 @@ output = function_name(10, 20)
 | **Recursive** | Calls itself | `def factorial(n): ...` |
 
 ### 3. Parameters & Arguments
+
+```python
+# Positional Arguments
+def add(a, b):
+    return a + b
+add(5, 3)           # a=5, b=3
+
+# Default Parameters
+def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+greet("Ali")         # "Hello, Ali!"
+greet("Ali", "Hi")   # "Hi, Ali!"
+
+# Keyword Arguments (order doesn't matter)
+greet(greeting="Hey", name="Sara")  # "Hey, Sara!"
+
+# *args (variable positional arguments → tuple)
+def total(*args):
+    return sum(args)
+total(1, 2, 3, 4)    # 10
+
+# **kwargs (variable keyword arguments → dict)
+def profile(**kwargs):
+    print(kwargs)
+profile(name="Ali", age=22)  # {'name': 'Ali', 'age': 22}
+```
