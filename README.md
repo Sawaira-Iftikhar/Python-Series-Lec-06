@@ -1,6 +1,6 @@
 # Python-Series-Lec-06
 
-🐍 Lecture 06 of 9 — Python Functions: Types, Default Parameters, *args/**kwargs, Lambda & Recursion. 33 hands-on practice questions with real-world challenges.
+🐍 Lecture 06 of 9 — Python Functions: Types, Default Parameters, *args/**kwargs, Lambda & Recursion. 28 hands-on practice questions with real-world challenges.
 
 
 ## 📚 Topics Covered
@@ -16,8 +16,8 @@
 
 ## 📂 Practice Files
 
-| File | Topics | Difficulty | Questions |
-|------|--------|:----------:|:---------:|
+| File | Topics | Questions |
+|------|--------|:---------:|
 | [01_Functions_basics.py](01_Functions_basics.py) | `def`, `return`, Parameters, Types of Functions | 08 |
 | [02_Default_and_advanced.py](02_Default_and_advanced.py) | Default Params, Keyword Args, `*args`, `**kwargs` | 09 |
 | [03_recursion.py](03_recursion.py) | Recursion, Base Case, Factorial, Fibonacci | 08 |
