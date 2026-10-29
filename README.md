@@ -77,3 +77,5 @@ def profile(**kwargs):
     print(kwargs)
 profile(name="Ali", age=22)  # {'name': 'Ali', 'age': 22}
 ```
+
+### 4. Recursion Pattern
