@@ -38,3 +38,4 @@ def function_name(parameter1, parameter2=default_value):
 
 # Calling the function
 output = function_name(10, 20)
+```
