@@ -134,4 +134,5 @@ If you found this helpful or have any questions:
 
 ## ⭐ Support
 
+If you find this repository helpful, please consider giving it a Star (⭐)! It helps others discover this learning roadmap.
 
