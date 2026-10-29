@@ -49,3 +49,5 @@ output = function_name(10, 20)
 | **Lambda** | Anonymous one-liner function | `square = lambda x: x ** 2` |
 | **Void** | Performs action but returns `None` | `def log(msg): print(msg)` |
 | **Recursive** | Calls itself | `def factorial(n): ...` |
+
+### 3. Parameters & Arguments
