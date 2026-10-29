@@ -125,3 +125,6 @@ def add_item(item, lst=None):
 - [ ] **Lecture 08** — Coming Soon
 - [ ] **Lecture 09** — Coming Soon
 
+## 🤝 Connect & Feedback
+
+
