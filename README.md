@@ -79,3 +79,13 @@ profile(name="Ali", age=22)  # {'name': 'Ali', 'age': 22}
 ```
 
 ### 4. Recursion Pattern
+
+```python
+def recursive_function(n):
+    # 1. BASE CASE — stops the recursion
+    if n <= 0:
+        return 0
+
+    # 2. RECURSIVE CASE — calls itself with smaller input
+    return n + recursive_function(n - 1)
+```
